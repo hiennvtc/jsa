@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title>Job Safety Analysis</title>
+		<meta charset="utf-8" />
+		<meta name="viewpoint" content="width=device-width, itial-scale=1" />
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		
+		<div class="container-fluid">
+
+			<img />
+			<h2><strong>Job Safety Analysis</strong></h2>
+			<form role="form">
+				<div class="form-group">
+					<label for="job-title">Job title:</label>
+					<input type="text" class="form-control" id="job-title" placeholder="Type the job title here" />
+				</div><!--end of .form-group-->
+
+				<div class="form-group">
+					<label for="location">Location:</label>
+					<input type="text" class="form-control" id="location" placeholder="Type the job location here" />
+				</div><!--end of. form-group-->
+
+				<div class="form-group">
+					<label for="tool">Tools/ Equipment:</label>
+					<input type="text" class="form-control" id="tool" placeholder="What tools or equipment will you use?" />
+				</div><!--end of .form-group-->
+
+				<table class="table table-striped table-hover table-bordered table-responsive">
+					<thead>
+						<tr>
+							<th class="col-sm-1">Step</th>
+							<th>Description</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td class="col-sm-1">1</td>
+							<td><input type="text" class="form-control" placeholder="Step 1" /></td>
+						</tr>	
+
+						<tr>
+							<td class="col-sm-1">2</td>
+							<td><input type="text" class="form-control" placeholder="Step 2" /></td>
+						</tr>
+
+						<tr>
+							<td colspan="2"><button class="btn btn-default">Add</button></td><!--Add more step-->
+						</tr>
+					</tbody>
+				</table>
+				<input  class="btn btn-default" type="submit" id="submit" value="Save" />
+			</form>
+
+		</div><!--end of .container-fluid-->
+
+	</body>
+</html>

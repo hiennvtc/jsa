@@ -1,0 +1,44 @@
+<?php
+	include 'head.php';
+?>
+
+			<img />
+			<h2><strong>Job Safety Analysis</strong></h2>
+			<form class="form-horizontal" role="form" action="riskanalysis.html">
+				<div class="form-group">
+					<label for="job-title">Job title:</label>
+					<input type="text" class="form-control" id="job-title" placeholder="Type the job title here" />
+				</div><!--end of .form-group-->
+
+				<div class="form-group">
+					<label for="location">Location:</label>
+					<input type="text" class="form-control" id="location" placeholder="Type the job location here" />
+				</div><!--end of. form-group-->
+
+				<div class="form-group">
+					<label for="tool">Tools/ Equipment:</label>
+					<input type="text" class="form-control" id="tool" placeholder="What tools or equipment will you use?" />
+				</div><!--end of .form-group-->
+				<div class="form-group">
+
+					<label  class="col-sm-1 control-label"><strong>Step 1:</strong></label>
+					<div class="col-sm-11">
+						<input type="text" class="form-control" placeholder="Please describe step 1 here" />
+					</div>
+					
+				</div>
+
+				<div class="form-group">
+				
+					<label  class="col-sm-1 control-label"><strong>Step 2:</strong></label>
+					<div class="col-sm-11">
+						<input type="text" class="form-control" placeholder="Please describe step 2 here" />
+					</div>
+					
+				</div>
+				<input type="submit" id="submit" class="btn btn-default" value="Next Step" />
+			</form>
+
+<?php
+	include 'foot.php';
+?>
